@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Boxes and Curves Design and Web Development </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  </head>
+
+  <body>
+<!--Navigation-->
+    <div class="w3-top">
+      <div class="w3-bar w3-black">
+        <span class="branding w3-bar-item w3-mobile">Boxes &amp; Curves</span>
+        <span class="w3-right w3-mobile">
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-amber" href="#" >Home</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-amber" href="#about" >About</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-amber" href="#services" >Services</a>
+          <a class="w3-bar-item w3-button w3-mobile w3-hover-amber" href="#contact" >Contact</a>
+        </span>
+      </div>
+    </div>
+
+<!--Showcase-->
+    <section class="showcase">
+      <div class="w3-container w3-center">
+        <h1 class="w3-animate-opacity">Boxes &amp; Curves</h1>
+        <hr>
+        <p class="w3-animate-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, corporis perferendis tempore beatae ratione nobis totam voluptas qui delectus fugiat?</p>
+        <button onclick="document.getElementById('modal-pop').style.display='block'" class="w3-button w3-amber -large w3-opacity">GET STARTED</button>
+      </div>
+    </section>
+
+<!--Section 1-->
+    <section class="section w3-amber w3-hover-opacity" id="about">
+      <div class="w3-container w3-center">
+          <i class="fa fa-home"></i>
+          <h2>Welcome Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, necessitatibus unde, nostrum ratione distinctio, qui, atque et ipsa culpa omnis quis. Nemo blanditiis quas aliquid veniam ex mollitia incidunt reprehenderit distinctio earum, debitis placeat cumque! Quisquam unde, doloremque perspiciatis alias soluta labore, quia, deserunt cupiditate, quibusdam porro iste sint iusto.</p>
+      </div>
+    </section>
+
+  <!--Section 2-->
+    <section class="section w3-light-grey w3-hover-opacity">
+      <div class="w3-container w3-center">
+          <i class="fa fa-cog"></i>
+          <h2>Get Started</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, necessitatibus unde, nostrum ratione distinctio, qui, atque et ipsa culpa omnis quis. Nemo blanditiis quas aliquid veniam ex mollitia incidunt reprehenderit distinctio earum, debitis placeat cumque! Quisquam unde, doloremque perspiciatis alias soluta labore, quia, deserunt cupiditate, quibusdam porro iste sint iusto.</p>
+      </div>
+    </section>
+
+  <!--About-->
+  <section class="section">
+    <div class="w3-container">
+      <div class="w3-row-padding">
+        <div class="w3-col m5">
+          <img src="img/team.jpg">
+        </div>
+        <div class="w3-col m7">
+        <!--Accordion1-->
+          <button onclick="accFunction('branding')" class="w3-button w3-block w3-left-align w3-amber w3-hover-amber">
+            Branding &amp; Graphic Design
+          </button>
+
+          <div id="branding" class="w3-container w3-show">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore doloribus mollitia, aut assumenda? Sapiente aspernatur perferendis laboriosam, incidunt ad blanditiis illo quibusdam, voluptatem velit reiciendis nihil at, amet nulla optio iure officia unde magni debitis? Aliquam sint iusto adipisci perferendis nihil itaque architecto ut nisi veritatis quo, est nesciunt ipsa illum eaque doloribus a! Doloremque debitis praesentium, veniam rem sint!</p>
+          </div>
+
+        <!--Accordion2-->
+          <button onclick="accFunction('design')" class="w3-button w3-block w3-left-align w3-black w3-hover-amber">
+            Copy Editing &amp; Content Writing
+          </button>
+
+          <div id="design" class="w3-container w3-hide">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore doloribus mollitia, aut assumenda? Sapiente aspernatur perferendis laboriosam, incidunt ad blanditiis illo quibusdam, voluptatem velit reiciendis nihil at, amet nulla optio iure officia unde magni debitis? Aliquam sint iusto adipisci perferendis nihil itaque architecto ut nisi veritatis quo, est nesciunt ipsa illum eaque doloribus a! Doloremque debitis praesentium, veniam rem sint!</p>
+          </div>
+
+        <!--Accordion3-->
+          <button onclick="accFunction('development')" class="w3-button w3-block w3-left-align w3-black w3-hover-amber">
+            Web Development
+          </button>
+
+          <div id="development" class="w3-container w3-hide">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore doloribus mollitia, aut assumenda? Sapiente aspernatur perferendis laboriosam, incidunt ad blanditiis illo quibusdam, voluptatem velit reiciendis nihil at, amet nulla optio iure officia unde magni debitis? Aliquam sint iusto adipisci perferendis nihil itaque architecto ut nisi veritatis quo, est nesciunt ipsa illum eaque doloribus a! Doloremque debitis praesentium, veniam rem sint!</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--Services-->
+  <section class="section w3-amber w3-hover-opacity" id="services">
+    <div class="w3-container w3-center">
+        <h2 class="w3-text-shadow">Our Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, necessitatibus unde, nostrum ratione distinctio, qui, atque et ipsa culpa omnis quis. Nemo blanditiis quas aliquid veniam ex mollitia incidunt reprehenderit distinctio earum, debitis placeat cumque! Quisquam unde, doloremque perspiciatis alias soluta labore, quia, deserunt cupiditate, quibusdam porro iste sint iusto.</p>
+    </div>
+  </section>
+
+  <section class="section w3-light-grey">
+    <div class="w3-container w3-center">
+      <div class="w3-row">
+        <di class="w3-col m4">
+          <i class="fa fa-code w3-amber w3-padding-small w3-round-xlarge"></i>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </di>
+
+        <di class="w3-col m4">
+          <i class="fa fa-address-card w3-amber w3-padding-small w3-round-xlarge"></i>
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </di>
+
+        <di class="w3-col m4">
+          <i class="fa fa-file-text w3-amber w3-padding-small w3-round-xlarge"></i>
+          <h3>Copy Editing</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </di>
+
+      </div>
+    </div>
+  </section>
+
+<!--Contact Heading-->
+  <section class="section w3-dark-grey w3-hover-opacity" id="contact">
+    <div class="w3-container w3-center">
+        <h2 class="w3-text-shadow">Get In Touch</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, natus.</p>
+    </div>
+  </section>
+  <!--Contact-->
+    <section class="section">
+      <div class="w3-container">
+        <div class="w3-card-4">
+          <div class="w3-container w3-dark-grey">
+            <h2>Contact Us</h2>
+          </div>
+          <form class="w3-container w3-padding-large">
+          <label class="w3-label">Name</label>
+          <input class="w3-input" type="text">
+          <label class="w3-label">Email</label>
+          <input class="w3-input" type="text">
+          <label class="w3-label">Message</label>
+          <br>
+          <textarea class="w3-input w3-border"
+          style="resize:none;" type="text"></textarea>
+          <button type="submit" class="w3-button">Submit</button>
+          <br><br>
+          </form>
+          </div>
+      </div>
+    </section>
+
+<footer class="w3-black w3-padding -xlarge w3-center">
+  <p>&copy; 2017 | Boxes &amp; Curves</p>
+</footer>
+
+
+<!--Modal-->
+<div id="modal-pop" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <header class="w3-container w3-amber">
+      <span class="w3-button w3-hover-white w3-display-topright" onclick="document.getElementById('modal-pop').style.display='none'">&times;</span>
+      <h2>Send Us Email</h2>
+    </header>
+
+      <div class="w3-container">
+          <form>
+              <div class="w3-section">
+                <label>Name</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name"></input>
+                <label>Username</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username"></input>
+                <label>Password</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password"></input>
+                <label>Confirm Password</label>
+                <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password"></input>
+                <button class="w3-black w3-block w3-section w3-padding">Submit</button>
+              </div>
+
+
+          </form>
+      </div>
+  </div>
+
+</div>
+
+  <script>
+  function accFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  </script>
+
+  </body>
+</html>
