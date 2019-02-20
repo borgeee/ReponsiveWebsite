@@ -10,7 +10,7 @@
   }
 
   .showcase {
-    height: 100px;
+    height: 100vh;
   }
 
 }
@@ -47,7 +47,7 @@
 .showcase{
   background:url('../img/nick-baker.jpg') no-repeat;
   background-position: center;
-  height: 600px;
+  height: 100vh;
   padding: 140px 100px;
   color: #fff;
 }
